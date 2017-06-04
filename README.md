@@ -13,22 +13,12 @@ With this tutorial can convert Latin numbers to Arabic and Persian numbers in sw
 </p>
 
 
-Custom image zooming animation transition. & interactive transition. written in Swift.
 
-## Demo
-
-[See demo on Appetize.io](https://appetize.io/app/7z0pzg1ntzbyef47e0rjpmck2g?device=iphone5s&scale=75&orientation=portrait&osVersion=9.2)
-
-## Using Transition Animator
-
-This sample have created as a showcase of ARNTransitionAnimator.
-
-[ARNTransitionAnimator](https://github.com/xxxAIRINxxx/ARNTransitionAnimator)
 
 ## Requirements
 
 - iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
-- Swift 3 (Kingfisher 3.x), Swift 2.3 (Kingfisher 2.x)
+- Swift 3 , Swift 2.3
 
 
 The simplest use-case is setting an image to an image view with the `UIImageView` extension:
@@ -47,6 +37,9 @@ func arabic(name : String) -> String{
         }
         return sum
     }
+    
+    // arabic("0123456789") -->  "۰۱۲۳۴۵۶۷۸۹"
+    // arabic("3.56") -->  "۳.۵۶"
 ```
 
 ### Contact
