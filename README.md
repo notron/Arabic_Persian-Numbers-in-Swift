@@ -1,9 +1,9 @@
 # Arabic_Persian-Numbers-in-Swift
 With this tutorial can convert Latin numbers to Arabic and Persian numbers in swift
 
-[![Swift 3](https://img.shields.io/badge/Swift-2.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 3](https://img.shields.io/badge/Swift-3-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
-[![Xcode 8](https://img.shields.io/badge/Xcode-7.3+-blue.svg?style=flat)](https://developer.apple.com/swift/)
+[![Xcode 8](https://img.shields.io/badge/Xcode-8+-blue.svg?style=flat)](https://developer.apple.com/swift/)
 
 
 Custom image zooming animation transition. & interactive transition. written in Swift.
