@@ -1,10 +1,11 @@
 # Arabic_Persian-Numbers-in-Swift
 
-<p align="center">
 
-<a href="http://onevcat.github.io/Kingfisher/"><img src="https://img.shields.io/cocoapods/p/Kingfisher.svg?style=flat"></a>
+[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat)](https://developer.apple.com/swift/)
+[![Xcode 8.0+](https://img.shields.io/badge/Xcode-8.0-blue.svg?style=flat)](https://developer.apple.com/swift/)
+[![Platform](https://img.shields.io/cocoapods/p/Kingfisher.svg?style=flat)](https://developer.apple.com/)
 
-</p>
 
 
 
