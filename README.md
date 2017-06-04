@@ -1,5 +1,4 @@
 # Arabic_Persian-Numbers-in-Swift
-With this tutorial can convert Latin numbers to Arabic and Persian numbers in swift
 
 <p align="center">
 <a href="https://travis-ci.org/onevcat/Kingfisher"><img src="https://img.shields.io/travis/onevcat/Kingfisher/master.svg"></a>
@@ -8,8 +7,7 @@ With this tutorial can convert Latin numbers to Arabic and Persian numbers in sw
 <a href="http://onevcat.github.io/Kingfisher/"><img src="https://img.shields.io/cocoapods/v/Kingfisher.svg?style=flat"></a>
 <a href="https://raw.githubusercontent.com/onevcat/Kingfisher/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/Kingfisher.svg?style=flat"></a>
 <a href="http://onevcat.github.io/Kingfisher/"><img src="https://img.shields.io/cocoapods/p/Kingfisher.svg?style=flat"></a>
-<a href="https://codebeat.co/projects/github-com-onevcat-kingfisher"><img alt="codebeat badge" src="https://codebeat.co/assets/svg/badges/A-398b39-669406e9e1b136187b91af587d4092b0160370f271f66a651f444b990c2730e9.svg" /></a>
-<img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
+
 </p>
 
 
@@ -21,7 +19,12 @@ With this tutorial can convert Latin numbers to Arabic and Persian numbers in sw
 - Swift 3 , Swift 2.3
 
 
-The simplest use-case is setting an image to an image view with the `UIImageView` extension:
+
+With this tutorial can convert Latin numbers to Arabic and Persian numbers in swift
+
+
+
+
 
 ```swift
 func arabic(name : String) -> String{
@@ -44,7 +47,7 @@ func arabic(name : String) -> String{
 
 ### Contact
 
-Follow and contact me on [Twitter](http://twitter.com/onevcat)
+Follow and contact me on [Twitter](https://twitter.com/notron021)
 
 ## License
 
