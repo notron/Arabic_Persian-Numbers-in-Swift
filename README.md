@@ -45,6 +45,3 @@ func arabic(name : String) -> String{
 
 Follow and contact me on [Twitter](https://twitter.com/notron021)
 
-## License
-
-MIT license. See the LICENSE file for more info.
