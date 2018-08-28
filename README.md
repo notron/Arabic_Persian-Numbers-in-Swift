@@ -23,9 +23,9 @@ With this tutorial can convert Latin numbers to Arabic and Persian numbers in sw
 
 
 ```swift
-func arabic(name : String) -> String{
+func englishToPersian() -> String{
         var sum = ""
-        let letters = name.characters.map { String($0) }
+        let letters = self.characters.map { String($0) }
         for letter in letters {
             if (Int(letter) != nil) {
                 let persianNumber = ["۰","۱","۲","۳","۴","۵","۶","۷","۸","۹"]
@@ -37,8 +37,36 @@ func arabic(name : String) -> String{
         return sum
     }
     
-    // arabic("0123456789") -->  "۰۱۲۳۴۵۶۷۸۹"
-    // arabic("3.56") -->  "۳.۵۶"
+    func persianToEnglish() -> String{
+        var sum = ""
+        let letters = self.characters.map { String($0) }
+        let persianNumber = ["۰","۱","۲","۳","۴","۵","۶","۷","۸","۹"]
+        for letter in letters {
+            var isSuccess = false
+            for (index, element) in persianNumber.enumerated() {
+                if letter == element {
+                    sum = sum + "\(index)"
+                    isSuccess = true
+                }
+            }
+            if isSuccess != true {
+                sum = sum + letter
+            }
+        }
+        return sum
+    }
+    
+    let strEnglish1 = "1234567890"
+strEnglish1.englishToPersian() // ۱۲۳۴۵۶۷۸۹۰
+
+let strEnglish2 = "1200 toman"
+strEnglish2.englishToPersian() // ۱۲۰۰ toman
+
+let strPersian1 = "۱۲۳۴۵۶۷۸۹۰"
+strPersian1.persianToEnglish() // 1234567890
+
+let strPersian2 = "۱۲۰۰  تومان"
+strPersian1.persianToEnglish() // ۱۲۰۰  تومان
 ```
 
 ### Contact
