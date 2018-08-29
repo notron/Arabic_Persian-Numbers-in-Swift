@@ -66,7 +66,7 @@ With this tutorial can convert Latin numbers to Arabic and Persian numbers in sw
         strPersian1.persianToEnglish() // 1234567890
 
         let strPersian2 = "۱۲۰۰  تومان"
-        strPersian1.persianToEnglish() // ۱۲۰۰  تومان
+        strPersian1.persianToEnglish() // 1200  تومان
 ```
 
 ### Contact
