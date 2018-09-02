@@ -1,8 +1,8 @@
 # Arabic_Persian-Numbers-in-Swift
 
 
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
-[![Xcode 8.0+](https://img.shields.io/badge/Xcode-8.0-blue.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Xcode 10.0+](https://img.shields.io/badge/Xcode-10.0-blue.svg?style=flat)](https://developer.apple.com/swift/)
 [![Platforms](https://img.shields.io/cocoapods/p/Kingfisher.svg?style=flat)](https://developer.apple.com/)
 
 
@@ -12,7 +12,7 @@
 ## Requirements
 
 - iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
-- Swift 3 , Swift 2.3
+- Swift 4 , Swift 3 , Swift 2.3
 
 
 
